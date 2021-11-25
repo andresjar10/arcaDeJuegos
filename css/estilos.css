@@ -1,0 +1,153 @@
+body{
+    margin: auto;
+}
+
+.header {
+    background-color: #D6DBFA;
+    padding: 0% 4% 2%;
+}
+
+.header__menu {
+    float: right;
+}
+
+ul li {
+    display: inline;
+    padding: 3px;
+}
+
+.header_titulo {
+    text-align: center;
+}
+
+.main {
+    padding: 2% 4%;
+}
+
+.main--margins {
+    padding: 1% 10% 3%;
+}
+
+.main__titulo {
+    margin-left: 4%;
+}
+
+.main__titulo--margin {
+    margin-left: 25%;
+}
+
+.main__titulo--align {
+    text-align: center;
+}
+
+.main__card {
+    background-color: #F1EFFC;
+    margin-bottom: 3%;
+}
+
+.main__card--sin_fondo {
+    display: inline-block;
+    width: 25%;
+    margin: 2% 4% 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main__card__img {
+    width: 25%;
+    vertical-align: middle;
+}
+
+.main__card__img--width {
+    width: 100%;
+}
+
+.main__card__desc {
+    width: 65%;
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.main__img {
+    width: 100%;
+}
+
+.main__form {
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+.main__form__input {
+    display: block;
+    margin: 1% 0% 2%;
+    width: 70%;
+}
+
+.main__form__input--width {
+    display: block;
+    margin: 1% 0% 2%;
+    width: 99%;
+}
+
+.main__form__textarea {
+    width: 99%;
+    background-color: rgb(250, 240, 240);
+} 
+
+.main_form_spanmaxchart{
+    float: right;
+}
+
+.main__form__btn {
+    float: right;
+    margin-left: 94%;
+}
+
+.main__opiniones {
+    margin-top: 6%;
+}
+
+.main__similares__ancla {
+    display: inline-block;
+    width: 29%;
+    margin-right: 5%;
+}
+
+.main__similares__ancla--margin {
+    display: inline-block;
+    width: 29%;
+}
+
+.main__similares__ancla_img{
+    width: 100%;
+}
+
+.footer {
+    background-color: #D6DBFA;
+    padding: 2% 4%;
+    text-align: center;
+}
+
+.footer__titulo {
+    margin-right: 10%;
+
+}
+
+.footer__redes {
+    text-align: right; 
+    display: inline-block; 
+    width: 75%;
+}
+
+.footer__img {
+    vertical-align: middle;
+    margin-right: 15%;
+}
+
+.footer__img--margin {
+    margin-right: 0%;
+}
+
