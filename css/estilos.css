@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: auto;
 }
 
@@ -75,7 +75,7 @@ a {
 }
 
 .main__form {
-    margin-left: 25%;
+    margin: 0 auto;
     width: 50%;
     margin-bottom: 3%;
 }
@@ -149,5 +149,140 @@ a {
 
 .footer__img--margin {
     margin-right: 0%;
+} */
+
+
+/* Grid CSS */
+body{
+    margin: auto;
 }
 
+.header {
+    background-color: #D6DBFA;
+    padding: 0% 4% 2%;
+    display: grid;
+    grid-template-areas: 
+    "logomenu"
+    "titulo";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.header__logomenu {
+    grid-area: logomenu;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__titulo {
+    grid-area: titulo;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    padding: 2% 4% 10%;
+    display: grid;
+    grid-template-areas: 
+    "titulo vacio"
+    "imagen1 descripcion1"
+    "imagen2 descripcion2"
+    "imagen3 descripcion3";
+    grid-template-rows: 1fr repeat(3, 2fr);
+    grid-template-columns: 1fr 3fr;
+    row-gap: 5%;
+}
+
+.main__titulo {
+    grid-area: titulo; 
+}
+
+.main__vacio {
+    grid-area: vacio;
+}
+
+.main__ancla1 {
+    grid-area: imagen1;
+    padding: 0% 8% 0% 0%;
+    background-color: #F1EFFC;
+    
+}
+
+.main__desc1 {
+    grid-area: descripcion1;
+    padding: 5% 0%;
+    background-color: #F1EFFC;
+}
+
+.main__ancla2 {
+    grid-area: imagen2;
+    padding: 0% 8% 0% 0%;
+    background-color: #F1EFFC;
+    
+}
+
+.main__desc2 {
+    grid-area: descripcion2;
+    padding: 5% 0%;
+    background-color: #F1EFFC;
+    
+}
+
+.main__ancla3 {
+    grid-area: imagen3;
+    padding: 0% 8% 0% 0%;
+    background-color: #F1EFFC;
+    
+}
+
+.main__desc3 {
+    grid-area: descripcion3;
+    padding: 5% 0%;
+    background-color: #F1EFFC;
+    
+}
+
+.main__ancla__img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    display: grid;
+    grid-template-areas: 
+    "container";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+
+.container {
+    grid-area: container;
+    background-color: #D6DBFA;
+    padding: 2% 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__titulo {
+    width: 70%;
+    padding: 1% 0%;
+    text-align: center;
+}
+
+.footer__img {
+    width: 60%;
+    padding: 1% 0%;
+}
+
+.footer__ancla {
+    display: flex;
+    justify-content: center;
+}
