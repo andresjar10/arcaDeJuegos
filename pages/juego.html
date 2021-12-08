@@ -11,23 +11,25 @@
 
 <body>
     <header class="header">
-        <img src="../img/logoArcaDeJuegos.svg" alt="" width="200" />
-        <ul class="header__menu">
-            <li><a href="./categorias.html">Categorias</a></li>
-            <li><a href="./mejorCalificados.html">Mejor Calificados</a></li>
-            <li><a href="../index.html"> + Nuevos</a></li>
-            <li><a href="./losMasJugados.html">+ Jugados</a></li>
-            <li><a href="./contactanos.html">Contactanos</a></li>
-        </ul>
-        <h1 class="header_titulo"><strong>Arca</strong>De<strong>Juegos</strong></h1>
+        <div class="header__logomenu">
+            <img src="../img/logoArcaDeJuegos.svg" alt="" width="200" />
+            <ul class="header__menu">
+                <li><a href="./categorias.html">Categorias</a></li>
+                <li><a href="./mejorCalificados.html">Mejor Calificados</a></li>
+                <li><a href="../index.html"> + Nuevos</a></li>
+                <li><a href="./losMasJugados.html">+ Jugados</a></li>
+                <li><a href="./contactanos.html">Contactanos</a></li>
+            </ul>
+        </div>
+        <h1 class="header__titulo"><strong>Arca</strong>De<strong>Juegos</strong></h1>
     </header>
-    <main class="main--margins">
-        <div>
+    <main class="main--juego">
+        <div class="main__play">
             <h2 class="main__titulo--align">FoosBall Super Shooter</h2>
             <div><img class="main__img" src="../img/juego.jpg" alt="" /></div>
         </div>
 
-        <div>
+        <div class="main__comentario">
             <form action="">
                 <h3>Que te parecio?</h3>
                 <input type="radio" name="calificacion" value="1">
@@ -38,13 +40,16 @@
                 <p>Cuentale a otros Juagores sobre el juego</p>
                 <textarea class="main__form__textarea" name="comentario" id="comentario"
                     rows="6">El juego me pareci&oacute; ...</textarea>
-                <p><span>Escribe al menos 30 caracteres</span> <span class="main_form_spanmaxchart">0/500</span></p>
-                <input class="main__form__btn" type="submit" value='enviar'>
+                <p class="main__comentario__char"><span>Escribe al menos 30 caracteres</span> <span
+                        class="main_form_spanmaxchart">0/500</span></p>
+                <div class="main__form__btn">
+                    <input type="submit" value='enviar'>
+                </div>
             </form>
         </div>
 
-        <div>
-            <h3 class="main__opiniones">Opiniones</h3>
+        <div class="main__opiniones">
+            <h3 class="main__opiniones__titulo">Opiniones</h3>
             <div>
                 <img src="../img/estrellas3.png" alt="" width="100" />
                 <p>Me parece un buen juego pero ......</p>
@@ -56,34 +61,37 @@
             </div>
         </div>
 
-        <div>
+        <div class="main__similares">
             <h3>Juegos Similares</h3>
-            <a class="main__similares__ancla" href="./juego.html">
-                <img class="main__similares__ancla_img" src="../img/similarNbaJam.svg" alt="" />
-                <div>NBA Jordan</div>
-            </a>
-            <a class="main__similares__ancla" href="./juego.html">
-                <img class="main__similares__ancla_img" src="../img/similarVolleyBall.svg" alt="" />
-                <div>VolleyBall</div>
-            </a>
-            <a class="main__similares__ancla--margin" href="./juego.html">
-                <img class="main__similares__ancla_img" src="../img/similarSuperStarSoccer.svg" alt="" />
-                <div>Super Star Soccer</div>
-            </a>
+            <div class="main__similares__anclas">
+                <a class="main__similares__ancla" href="./juego.html">
+                    <img class="main__similares__ancla_img" src="../img/similarNbaJam.svg" alt="" />
+                    <div>NBA Jordan</div>
+                </a>
+                <a class="main__similares__ancla" href="./juego.html">
+                    <img class="main__similares__ancla_img" src="../img/similarVolleyBall.svg" alt="" />
+                    <div>VolleyBall</div>
+                </a>
+                <a class="main__similares__ancla" href="./juego.html">
+                    <img class="main__similares__ancla_img" src="../img/similarSuperStarSoccer.svg" alt="" />
+                    <div>Super Star Soccer</div>
+                </a>
+            </div>
         </div>
     </main>
     <footer class="footer">
-        <span class="footer__titulo"><strong>Arca</strong>De<strong>Juegos</strong></span>
-        <div class="footer__redes">
-            <a href="https://es-la.facebook.com/">
-                <img class="footer__img" src="../img/linkFacebook.svg" alt="ir a Facebook" width="100" />
+        <div class="container">
+            <div>
+                <span class="footer__titulo"><strong>Arca</strong>De<strong>Juegos</strong></span>
+            </div>
+            <a class="footer__ancla" href="https://es-la.facebook.com/">
+                <img class="footer__img" src="../img/linkFacebook.svg" alt="ir a Facebook" />
             </a>
-            <a href="https://twitter.com/?lang=es">
-                <img class="footer__img" src="../img/linkTwitter.svg" alt="ir a Twitter" width="100" />
+            <a class="footer__ancla" href="https://twitter.com/?lang=es">
+                <img class="footer__img" src="../img/linkTwitter.svg" alt="ir a Twitter" />
             </a>
-            <a href="https://www.instagram.com/?hl=es">
-                <img class="footer__img footer__img--margin" src="../img/linkInstagram.svg" alt="ir a instagram"
-                    width="100" />
+            <a class="footer__ancla" href="https://www.instagram.com/?hl=es">
+                <img class="footer__img" src="../img/linkInstagram.svg" alt="ir a instagram" />
             </a>
         </div>
     </footer>

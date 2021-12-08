@@ -11,14 +11,16 @@
 
 <body>
     <header class="header">
-        <img src="../img/logoArcaDeJuegos.svg" alt="" width="200" />
-        <ul class="header__menu">
-            <li><a href="./categorias.html">Categorias</a></li>
-            <li><a href="./mejorCalificados.html">Mejor Calificados</a></li>
-            <li><a href="../index.html"> + Nuevos</a></li>
-            <li><a href="./losMasJugados.html">+ Jugados</a></li>
-        </ul>
-        <h1 class="header_titulo"><strong>Arca</strong>De<strong>Juegos</strong></h1>
+        <div class="header__logomenu">
+            <img src="../img/logoArcaDeJuegos.svg" alt="" width="200" />
+            <ul class="header__menu">
+                <li><a href="./categorias.html">Categorias</a></li>
+                <li><a href="./mejorCalificados.html">Mejor Calificados</a></li>
+                <li><a href="../index.html"> + Nuevos</a></li>
+                <li><a href="./losMasJugados.html">+ Jugados</a></li>
+            </ul>
+        </div>
+        <h1 class="header__titulo"><strong>Arca</strong>De<strong>Juegos</strong></h1>
     </header>
     <main class="main">
         <h2 class="main__titulo--margin">Contactanos</h2>
@@ -28,25 +30,28 @@
 
             <label for="email">Email:</label>
             <input class="main__form__input" size="30" type="email" placeholder="Tu email" name="email">
-            
+
             <label for="mensaje">Dejanos tu mensaje:</label>
             <textarea class="main__form__input--width" name="mensaje" id="" cols="40" rows="10"></textarea>
             <input class="main__form__btn" type="submit" value="Enviar">
         </form>
     </main>
     <footer class="footer">
-        <span><strong>Arca</strong>De<strong>Juegos</strong></span>
-        <div class="footer__redes">
-            <a href="https://es-la.facebook.com/">
-                <img class="footer__img" src="../img/linkFacebook.svg" alt="ir a Facebook" width="100" />
+        <div class="container">
+            <div>
+                <span><strong>Arca</strong>De<strong>Juegos</strong></span>
+            </div>
+            <a class="footer__ancla" href="https://es-la.facebook.com/">
+                <img class="footer__img" src="../img/linkFacebook.svg" alt="ir a Facebook" />
             </a>
-            <a href="https://twitter.com/?lang=es">
-                <img class="footer__img" src="../img/linkTwitter.svg" alt="ir a Twitter" width="100" />
+            <a class="footer__ancla" href="https://twitter.com/?lang=es">
+                <img class="footer__img" src="../img/linkTwitter.svg" alt="ir a Twitter" />
             </a>
-            <a href="https://www.instagram.com/?hl=es">
-                <img class="footer__img footer__img--margin" src="../img/linkInstagram.svg" alt="ir a instagram" width="100" />
+            <a class="footer__ancla" href="https://www.instagram.com/?hl=es">
+                <img class="footer__img footer__img--margin" src="../img/linkInstagram.svg" alt="ir a instagram" />
             </a>
         </div>
+
     </footer>
 </body>
 

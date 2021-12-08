@@ -201,8 +201,28 @@ a {
     row-gap: 5%;
 }
 
+.main--categorias {
+    display: block;
+}
+
+.main--juego {
+    padding: 2% 4% 10%;
+    display: grid;
+    grid-template-areas: 
+    "juego"
+    "comentario"
+    "opiniones"
+    "similares";
+    grid-template-rows: 46% 23% 17% 14%;
+    grid-template-columns: 1fr;
+}
+
 .main__titulo {
     grid-area: titulo; 
+}
+
+.main__titulo--align {
+    text-align: center;
 }
 
 .main__vacio {
@@ -253,6 +273,83 @@ a {
 .main__ancla__img {
     width: 100%;
     height: 100%;
+}
+
+.fila {
+    display: grid;
+    grid-template-areas: 
+    "col1 col2 col3";
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main__card1 {
+    grid-area: col1;
+}
+
+.main__card2 {
+    grid-area: col2;
+}
+
+.main__card3 {
+    grid-area: col3;
+}
+
+.main__card__img {
+    margin: 5% 10%;
+    width: 80%
+}
+
+.main__card__text {
+    text-align: center;
+}
+
+.main__play {
+    grid-area: juego;
+}
+
+.main__comentario {
+    grid-area: comentario;
+}
+
+.main__opiniones {
+    grid-area: opiniones;
+}
+
+.main__similares {
+    grid-area: similares;
+}
+
+.main__similares__anclas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__img {
+    width: 100%;
+}
+
+.main__form__textarea {
+    width: 99%;
+    background-color: rgb(250, 240, 240);
+}
+
+.main__comentario__char {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__form__btn {
+    display: flex;
+    justify-content: right
+}
+
+/* .main__similares__ancla_img{
+    width: 100%;
+} */
+
+.main__similares__ancla div {
+    text-align: center;
 }
 
 .footer {

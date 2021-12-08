@@ -11,61 +11,77 @@
 
 <body>
     <header class="header">
-        <img src="../img/logoArcaDeJuegos.svg" alt="" width="200" />
-        <ul class="header__menu">
-            <li><a href="./mejorCalificados.html">Mejor Calificados</a></li>
-            <li><a href="../index.html"> + Nuevos</a></li>
-            <li><a href="./losMasJugados.html">+ Jugados</a></li>
-            <li><a href="./contactanos.html">Contactanos</a></li>
-        </ul>
-        <h1 class="header_titulo"><strong>Arca</strong>De<strong>Juegos</strong></h1>
+        <div class="header__logomenu">
+            <img src="../img/logoArcaDeJuegos.svg" alt="" width="200" />
+            <ul class="header__menu">
+                <li><a href="./mejorCalificados.html">Mejor Calificados</a></li>
+                <li><a href="../index.html"> + Nuevos</a></li>
+                <li><a href="./losMasJugados.html">+ Jugados</a></li>
+                <li><a href="./contactanos.html">Contactanos</a></li>
+            </ul>
+        </div>
+        <h1 class="header__titulo"><strong>Arca</strong>De<strong>Juegos</strong></h1>
     </header>
-    <main class="main">
-        <h2 class="main__titulo">Categorias</h2>
-        <div class="main__card--sin_fondo">
-            <div>
-                <img class="main__card__img--width" src="../img/categoriaDeportes.svg" alt="" />
+    <main class="main main--categorias">
+
+        
+            <h2 class="main__titulo">Categorias</h2>
+        
+        <div class="fila">
+            <div class="main__card1">
+                <div>
+                    <img class="main__card__img" src="../img/categoriaDeportes.svg" alt="" />
+                </div>
+                <div class="main__card__text">Deportes</div>
             </div>
-            <div>Deportes</div>
-        </div>
-        <div class="main__card--sin_fondo">
-            <div>
-                <img class="main__card__img--width"  src="../img/categoriaClasicos.svg" alt="" />
+            <div class="main__card2">
+                <div>
+                    <img class="main__card__img" src="../img/categoriaClasicos.svg" alt="" />
+                </div>
+                <div class="main__card__text">Clasicos</div>
             </div>
-            <div>Clasicos</div>
-        </div>
-        <div class="main__card--sin_fondo">
-            <div>
-                <img class="main__card__img--width" src="../img/categoriaPuzzle.svg" alt="" />
+            <div class="main__card3">
+                <div>
+                    <img class="main__card__img" src="../img/categoriaPuzzle.svg" alt="" />
+                </div>
+                <div class="main__card__text">Rompecabezas</div>
             </div>
-            <div>Rompecabezas</div>
         </div>
-        <div class="main__card--sin_fondo">
-            <div>
-                <img class="main__card__img--width" src="../img/categoriaAventura.svg" alt="" />
+        <div class="fila">
+            <div class="main__card1">
+                <div>
+                    <img class="main__card__img" src="../img/categoriaAventura.svg" alt="" />
+                </div>
+                <div class="main__card__text">Aventura</div>
             </div>
-            <div>Aventura</div>
+            <div class="main__card2">
+                <div>
+                    <img class="main__card__img" src="../img/categoriaAccion.svg" alt="" />
+                </div>
+                <div class="main__card__text">Accion</div>
+            </div>
+            <div class="main__card3">
+                <div>
+                    <img class="main__card__img" src="../img/categoriaEspaciales.svg" alt="" />
+                </div>
+                <div class="main__card__text">Espaciales</div>
+            </div>
         </div>
-        <div class="main__card--sin_fondo">
-            <div><img class="main__card__img--width" src="../img/categoriaAccion.svg" alt="" /></div>
-            <div>Accion</div>
-        </div>
-        <div class="main__card--sin_fondo">
-            <div><img class="main__card__img--width" src="../img/categoriaEspaciales.svg" alt="" /></div>
-            <div>Espaciales</div>
-        </div>
+
     </main>
     <footer class="footer">
-        <span class="footer__titulo"><strong>Arca</strong>De<strong>Juegos</strong></span>
-        <div class="footer__redes">
-            <a href="https://es-la.facebook.com/">
-                <img class="footer__img" src="../img/linkFacebook.svg" alt="ir a Facebook" width="100" />
+        <div class="container">
+            <div>
+                <span class="footer__titulo"><strong>Arca</strong>De<strong>Juegos</strong></span>
+            </div>
+            <a class="footer__ancla" href="https://es-la.facebook.com/">
+                <img class="footer__img" src="../img/linkFacebook.svg" alt="ir a Facebook" />
             </a>
-            <a href="https://twitter.com/?lang=es">
-                <img class="footer__img" src="../img/linkTwitter.svg" alt="ir a Twitter" width="100" />
+            <a class="footer__ancla" href="https://twitter.com/?lang=es">
+                <img class="footer__img" src="../img/linkTwitter.svg" alt="ir a Twitter" />
             </a>
-            <a href="https://www.instagram.com/?hl=es">
-                <img class="footer__img footer__img--margin" src="../img/linkInstagram.svg" alt="ir a instagram" width="100" />
+            <a class="footer__ancla" href="https://www.instagram.com/?hl=es">
+                <img class="footer__img footer__img--margin" src="../img/linkInstagram.svg" alt="ir a instagram" />
             </a>
         </div>
     </footer>
