@@ -18,6 +18,7 @@ body{
     grid-area: logomenu;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__titulo {
@@ -121,6 +122,17 @@ a {
     height: 100%;
 }
 
+.bordes_left {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bordes_right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
 .fila {
     display: grid;
     grid-template-areas: 
@@ -212,6 +224,7 @@ a {
     padding: 2% 4%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer__titulo {
@@ -222,10 +235,10 @@ a {
 
 .footer__img {
     width: 60%;
-    padding: 1% 0%;
+    border-radius: 7px;
 }
 
-.footer__ancla {
+ .footer__ancla {
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
