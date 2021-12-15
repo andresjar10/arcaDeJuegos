@@ -35,6 +35,28 @@ a {
     text-decoration: none;
 }
 
+.svglogo {
+    width: 200px;
+}
+
+.svglogo__image{
+    animation: mover 4s linear;
+}
+
+@keyframes mover {
+    0%{
+        transform: translateX(-700px);
+    }
+
+    50%{
+        transform: translate(-20px);
+    }
+
+    100%{
+        transform: translate(0px);
+    }
+}
+
 .main {
     padding: 2% 4% 10%;
     display: grid;
@@ -120,6 +142,32 @@ a {
 .main__ancla__img {
     width: 100%;
     height: 100%;
+    animation: fadeIn 3s infinite linear;
+   
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: .10;
+    }
+
+    25%{
+        opacity: .40;
+    }
+
+    50%{
+        opacity: .90;
+    }
+
+    75%{
+        opacity: .50;
+    }
+
+    100%{
+        opacity: .25;
+    }
+
+
 }
 
 .bordes_left {
