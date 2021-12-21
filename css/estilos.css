@@ -89,9 +89,9 @@ a {
     padding: 2% 4%;
 }
 
-.main--categorias {
+/* .main--categorias {
     display: block;
-}
+} */
 
 .main--juego {
     padding: 2% 4% 10%;
@@ -116,6 +116,10 @@ a {
 .main__titulo--margin {
     margin-left: 15%;
     margin-bottom: 1.5rem;
+}
+
+.main__titulo--width{
+    width: 20rem;
 }
 
 .main__card {
@@ -199,6 +203,20 @@ p {
 }
 
 .main__card__text {
+    text-align: center;
+}
+
+.main__rowcat {
+    margin: 1.5rem 0% 0%; 
+    justify-content: space-around;
+}
+
+.main__rowcat__card {
+    width: 20rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-body h5 {
     text-align: center;
 }
 
