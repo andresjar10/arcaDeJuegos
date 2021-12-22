@@ -135,7 +135,7 @@ a {
 .main__ancla__img {
     width: 100%;
     height: 100%;
-    animation: fadeIn 3s infinite linear;
+    /* animation: fadeIn 3s infinite linear; */
    
 }
 
