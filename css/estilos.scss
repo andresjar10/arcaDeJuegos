@@ -1,0 +1,116 @@
+@import "estiloCabecera";
+@import "estiloMain";
+@import "estiloFooter";
+
+body{
+    margin: auto;
+}
+
+.btn-outline-success {
+    color: $colorBtn;
+    border-color: $colorBtn;
+}
+
+.btn-outline-success:hover {
+    background-color: $colorBtn;
+    border-color: $colorBtn;
+    color: $colorTextoBtn;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
+   box-shadow: 0 0 0 0.2rem rgba(40, 80, 167, 0.5);
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    background-color: $colorBtn;
+    border-color: $colorBtn;
+    color: $colorTextoBtn;
+}
+
+.main--juego {
+    padding: 2% 4% 10%;
+    display: grid;
+    grid-template-areas: 
+    "juego"
+    "comentario"
+    "opiniones"
+    "similares";
+    grid-template-rows: 1.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr;
+}
+
+.main__rowcat {
+    margin: 1.5rem 0% 0%; 
+    justify-content: space-around;
+}
+
+.main__rowcat__card {
+    width: 20rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-body h5 {
+    text-align: center;
+}
+
+.main__play {
+    grid-area: juego;
+}
+
+.main__comentario {
+    grid-area: comentario;
+}
+
+.main__opiniones {
+    grid-area: opiniones;
+}
+
+.main__similares {
+    grid-area: similares;
+}
+
+.main__similares__anclas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__img {
+    width: 100%;
+}
+
+.main__form__textarea {
+    width: 99%;
+    background-color: rgb(250, 240, 240);
+}
+
+.main__comentario__char {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__form__btn {
+    display: flex;
+    justify-content: right
+}
+
+.main__similares__ancla_img{
+    width: 100%;
+}
+
+.main__similares__ancla div {
+    text-align: center;
+}
+
+.main__campo {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.main__boton {
+    display: flex;
+    justify-content: right;
+    width: 70%;
+    margin-left: 15%;
+
+}
+

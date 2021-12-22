@@ -1,0 +1,51 @@
+$colorBtn: #283ba7;
+$colorTextoBtn: #fff;
+
+.header {
+    background-color: #D6DBFA;
+    padding: 0% 4% 2%;
+    &__nav {
+        padding: 0;
+        margin-bottom: 1.5rem;
+
+        .svglogo {
+            width: 200px;
+            &__image{
+                animation: mover 4s linear;
+            }
+        }
+
+        &__menu{
+            justify-content: right;
+            ul{
+                margin-right: 1rem;
+                li {
+                    display: inline;
+                    padding: 3px;
+                    .nav-link:hover {
+                        text-shadow: 0 4px 16px rgb(16, 12, 223);
+                        transition: all 0.2s ease;
+                    }
+                }
+            }
+        }
+    }
+
+    .header__titulo {
+        text-align: center;
+    }
+}
+
+@keyframes mover {
+    0%{
+        transform: translateX(-700px);
+    }
+
+    50%{
+        transform: translate(-20px);
+    }
+
+    100%{
+        transform: translate(0px);
+    }
+}
