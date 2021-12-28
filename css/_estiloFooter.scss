@@ -1,5 +1,5 @@
 .footer {
-    background-color: #c4ccf9;
+    background-color: map-get($coloresFondo, footer);
     padding: 2% 0px 0px;
     &__icons {
         display: flex;
@@ -15,7 +15,7 @@
         }
     }
     &__copy {
-        background-color: rgb(118, 153, 255);
+        background-color: map-get($coloresFondo, footercopy);
         a {
             color:darkslateblue;
         }

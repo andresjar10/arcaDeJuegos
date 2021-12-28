@@ -15,7 +15,7 @@
     }
 
     &__card {
-        background-color: #f6f3fb;
+        background-color: map-get($coloresFondo, main);
         border-radius: 20px;
         margin: 3% 0%;
         &__link {

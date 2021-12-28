@@ -1,8 +1,16 @@
 $colorBtn: #283ba7;
 $colorTextoBtn: #fff;
 
+$coloresFondo: (
+    header: #D6DBFA,
+    main: #f6f3fb,
+    footer: #c4ccf9,
+    footercopy: rgb(118, 153, 255),
+    btnevento: $colorBtn
+);
+
 .header {
-    background-color: #D6DBFA;
+    background-color: map-get($coloresFondo , header);
     padding: 0% 4% 2%;
     &__nav {
         padding: 0;
