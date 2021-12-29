@@ -80,15 +80,17 @@
         </div>
         <h1 class="header__titulo"><strong>Arca</strong>De<strong>Juegos</strong></h1>
     </header>
-    <main class="main--juego">
-        <div class="main__play">
-            <h2 class="main__titulo--align">FoosBall Super Shooter</h2>
-            <div><img class="main__img" src="../img/juego.jpg" alt="" /></div>
+    <main class="container-fluid main--juego">
+        <div class="row row--marginb">
+            <h2 class="col-12 main__titulo--align">FoosBall Super Shooter</h2>
+            <div class="col-12">
+                <img class="main__img" src="../img/juego.jpg" alt="" />
+            </div>
         </div>
 
-        <div class="main__comentario">
-            <form action="">
-                <h3>Que te parecio?</h3>
+        <div class="row row--marginb">
+            <form class="col-12" action="">
+                <h4>Que te parecio?</h4>
                 <input type="radio" name="calificacion" value="1">
                 <input type="radio" name="calificacion" value="2">
                 <input type="radio" name="calificacion" value="3">
@@ -105,35 +107,43 @@
             </form>
         </div>
 
-        <div class="main__opiniones">
-            <h3 class="main__opiniones__titulo">Opiniones</h3>
-            <div>
+        <div class="row row--marginb">
+            <h4 class="col-12 main__opiniones__titulo">Opiniones</h4>
+            <div class="col-12">
                 <img src="../img/estrellas3.png" alt="" width="100" />
                 <p>Me parece un buen juego pero ......</p>
             </div>
-            <div>
+            <div class="col-12">
                 <img src="../img/estrellas4.png" alt="" width="100" />
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit taciti cursus fames, pulvinar a eget malesuada
                     primis sodales pretium nam mi. Maecenas sem bibendum tempor gravida inceptos.</p>
             </div>
         </div>
 
-        <div class="main__similares">
-            <h3>Juegos Similares</h3>
-            <div class="main__similares__anclas">
-                <a class="main__similares__ancla" href="./juego.html">
-                    <img class="main__similares__ancla_img" src="../img/similarNbaJam.svg" alt="" />
-                    <div>NBA Jordan</div>
-                </a>
-                <a class="main__similares__ancla" href="./juego.html">
-                    <img class="main__similares__ancla_img" src="../img/similarVolleyBall.svg" alt="" />
-                    <div>VolleyBall</div>
-                </a>
-                <a class="main__similares__ancla" href="./juego.html">
-                    <img class="main__similares__ancla_img" src="../img/similarSuperStarSoccer.svg" alt="" />
-                    <div>Super Star Soccer</div>
-                </a>
+        <div>
+            <h4>Juegos Similares</h4>
+
+            <div class="row row--similares">
+                <div class="card">
+                    <img class="card-img-top" src="../img/categoriaDeportes.svg" alt="Deportes">
+                    <div class="card-body card-body--padding">
+                        <h6 class="card-title">Deportes</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../img/categoriaClasicos.svg" alt="Clasicos">
+                    <div class="card-body card-body--padding">
+                        <h6 class="card-title">Clasicos</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../img/categoriaPuzzle.svg" alt="Rompecabezas">
+                    <div class="card-body card-body--padding">
+                        <h6 class="card-title">Rompecabezas</h6>
+                    </div>
+                </div>
             </div>
+            
         </div>
     </main>
     <footer class="container-fluid footer">

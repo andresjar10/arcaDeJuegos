@@ -29,18 +29,6 @@ body{
     @include estilosBtnEvento();
 }
 
-.main--juego {
-    padding: 2% 4% 10%;
-    display: grid;
-    grid-template-areas: 
-    "juego"
-    "comentario"
-    "opiniones"
-    "similares";
-    grid-template-rows: 1.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-columns: 1fr;
-}
-
 .main__rowcat {
     margin: 1.5rem 0% 0%; 
     justify-content: space-around;
@@ -51,29 +39,8 @@ body{
     margin-bottom: 1.5rem;
 }
 
-.card-body h5 {
+.card-body h6 {
     text-align: center;
-}
-
-.main__play {
-    grid-area: juego;
-}
-
-.main__comentario {
-    grid-area: comentario;
-}
-
-.main__opiniones {
-    grid-area: opiniones;
-}
-
-.main__similares {
-    grid-area: similares;
-}
-
-.main__similares__anclas {
-    display: flex;
-    justify-content: space-between;
 }
 
 .main__img {
@@ -95,14 +62,6 @@ body{
     justify-content: right
 }
 
-.main__similares__ancla_img{
-    width: 100%;
-}
-
-.main__similares__ancla div {
-    text-align: center;
-}
-
 .main__campo {
     width: 70%;
     margin-left: 15%;
@@ -113,6 +72,5 @@ body{
     justify-content: right;
     width: 70%;
     margin-left: 15%;
-
 }
 

@@ -1,13 +1,17 @@
 .main {
     padding: 2% 4%;
+    
     &__titulo {
-        margin: 0%;
+        margin: 0% 0% 1.5rem;;
         &--align {
+            @extend .main__titulo;
             text-align: center;
+            /* margin-bottom: 1.5rem; */
         }
         &--margin {
+            @extend .main__titulo;
             margin-left: 15%;
-            margin-bottom: 1.5rem;
+            /* margin-bottom: 1.5rem; */
         } 
         &--width{
             width: 20rem;
@@ -34,6 +38,23 @@
             align-items: center;
             p {
                 margin-top: 16px;
+            }
+        }
+    }
+
+    &--juego {
+        @extend .main;
+        padding-bottom: 2.5rem;
+        & .row--marginb {
+            margin-bottom: 1.5rem;
+        } 
+
+        & .row--similares{
+            margin: 1rem 0px 0px;
+            justify-content: space-between;
+
+            & .card-body--padding {
+                padding:  0.5rem 0.5rem 0.3rem;;
             }
         }
     }
