@@ -70,4 +70,23 @@
             margin-bottom: 0.5rem;
         }
     }
+
+    &__rowcat {
+        margin: 1.5rem 0% 0%; 
+        justify-content: space-around;
+
+        &__card {
+            width: 20rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-body--align {
+            text-align: center;
+            em {
+                font-size: 1.25rem;
+                font-weight: 500;
+                font-style: normal;
+            }
+        } 
+    }
 }

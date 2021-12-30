@@ -29,20 +29,6 @@ body{
     @include estilosBtnEvento();
 }
 
-.main__rowcat {
-    margin: 1.5rem 0% 0%; 
-    justify-content: space-around;
-}
-
-.main__rowcat__card {
-    width: 20rem;
-    margin-bottom: 1.5rem;
-}
-
-.card-body h5 {
-    text-align: center;
-}
-
 .main__img {
     width: 100%;
 }

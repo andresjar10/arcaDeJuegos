@@ -159,6 +159,27 @@
   margin-bottom: 0.5rem;
 }
 
+.main__rowcat {
+  margin: 1.5rem 0% 0%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main__rowcat__card {
+  width: 20rem;
+  margin-bottom: 1.5rem;
+}
+
+.main__rowcat .card-body--align {
+  text-align: center;
+}
+
+.main__rowcat .card-body--align em {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .footer {
   background-color: #c4ccf9;
   padding: 2% 0px 0px;
@@ -218,21 +239,6 @@ body {
   background-color: #283ba7;
   border-color: #283ba7;
   color: #fff;
-}
-
-.main__rowcat {
-  margin: 1.5rem 0% 0%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.main__rowcat__card {
-  width: 20rem;
-  margin-bottom: 1.5rem;
-}
-
-.card-body h5 {
-  text-align: center;
 }
 
 .main__img {
