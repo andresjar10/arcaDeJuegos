@@ -1,0 +1,28 @@
+{
+  "name": "arcadejuegos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "scss": "node-sass --watch css -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresjar10/arcaDeJuegos.git"
+  },
+  "author": {
+    "name": "Andres Felipe Jaramillo Valdes",
+    "email": "andresjar10@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresjar10/arcaDeJuegos/issues"
+  },
+  "homepage": "https://andresjar10.github.io/arcaDeJuegos/",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
