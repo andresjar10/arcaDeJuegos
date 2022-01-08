@@ -24,7 +24,9 @@ const requestListener = (req, res) => {
     contentType ='image/svg+xml'
   } else if (url.match("\.png$")) { // para los archivos png
     contentType = 'image/png'
-  } else if (url.match("\.ico$")) { // para los archivos png
+  } else if (url.match("\.jpg$")) { // para los archivos jpg
+    contentType = 'image/jpg'
+  } else if (url.match("\.ico$")) { // para el archivo favicon
     contentType = 'image/x-icon'
     stream = createReadStream(`${PUBLIC_FOLDER}/img/favicon.ico`)
   }
