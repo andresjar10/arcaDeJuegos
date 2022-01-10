@@ -1,25 +1,33 @@
 .header {
   background-color: #D6DBFA;
   padding: 0% 4% 2%; }
-  .header__nav {
-    padding: 0;
-    margin-bottom: 1.5rem; }
-    .header__nav .svglogo {
-      width: 200px; }
-      .header__nav .svglogo__image {
-        animation: mover 4s linear; }
-    .header__nav__menu {
-      justify-content: right; }
-      .header__nav__menu ul {
-        margin-right: 1rem; }
-        .header__nav__menu ul li {
-          display: inline;
-          padding: 3px; }
-          .header__nav__menu ul li .nav-link:hover {
-            text-shadow: 0 4px 16px #100cdf;
-            transition: all 0.2s ease; }
-  .header .header__titulo {
-    text-align: center; }
+
+.header__nav {
+  padding: 0;
+  margin-bottom: 1.5rem; }
+
+.header__nav .svglogo {
+  width: 200px; }
+
+.header__nav .svglogo__image {
+  animation: mover 4s linear; }
+
+.header__nav__menu {
+  justify-content: right; }
+
+.header__nav__menu ul {
+  margin-right: 1rem; }
+
+.header__nav__menu ul li {
+  display: inline;
+  padding: 3px; }
+
+.header__nav__menu ul li .nav-link:hover {
+  text-shadow: 0 4px 16px #100cdf;
+  transition: all 0.2s ease; }
+
+.header .header__titulo {
+  text-align: center; }
 
 @keyframes mover {
   0% {
@@ -31,81 +39,106 @@
 
 .main, .main--juego {
   padding: 2% 4%; }
-  .main__titulo, .main__titulo--align, .main__titulo--margin {
-    margin: 0% 0% 1.5rem; }
-    .main__titulo--align {
-      text-align: center;
-      /* margin-bottom: 1.5rem; */ }
-    .main__titulo--margin {
-      margin-left: 15%;
-      /* margin-bottom: 1.5rem; */ }
-    .main__titulo--width {
-      width: 20rem; }
-  .main__card {
-    background-color: #f6f3fb;
-    border-radius: 20px;
-    margin: 3% 0%; }
-    .main__card__link {
-      padding-left: 0px; }
-      .main__card__link__img {
-        width: 100%;
-        height: 100%; }
-      .main__card__link .bordes_left {
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px; }
-    .main__card__desc {
-      display: flex;
-      align-items: center; }
-      .main__card__desc p {
-        margin-top: 16px; }
-  .main--juego {
-    padding-bottom: 2.5rem; }
-    .main--juego .row--marginb {
-      margin-bottom: 1.5rem; }
-    .main--juego .row--similares {
-      margin: 1rem 0px 0px;
-      justify-content: space-between; }
-      .main--juego .row--similares .card-body--padding {
-        padding: 0.5rem 0.5rem 0.3rem;
-        text-align: center; }
-        .main--juego .row--similares .card-body--padding span {
-          font-weight: 500; }
-    .main--juego em {
-      display: block;
-      font-size: 1.4rem;
-      font-weight: 500;
-      font-style: normal;
-      margin-bottom: 0.5rem; }
-  .main__rowcat {
-    margin: 1.5rem 0% 0%;
-    justify-content: space-around; }
-    .main__rowcat__card {
-      width: 20rem;
-      margin-bottom: 1.5rem; }
-    .main__rowcat .card-body--align {
-      text-align: center; }
-      .main__rowcat .card-body--align em {
-        font-size: 1.25rem;
-        font-weight: 500;
-        font-style: normal; }
+
+.main__titulo, .main__titulo--align, .main__titulo--margin {
+  margin: 0% 0% 1.5rem; }
+
+.main__titulo--align {
+  text-align: center;
+  /* margin-bottom: 1.5rem; */ }
+
+.main__titulo--margin {
+  margin-left: 15%;
+  /* margin-bottom: 1.5rem; */ }
+
+.main__titulo--width {
+  width: 20rem; }
+
+.main__card {
+  background-color: #f6f3fb;
+  border-radius: 20px;
+  margin: 3% 0%; }
+
+.main__card__link {
+  padding-left: 0px; }
+
+.main__card__link__img {
+  width: 100%;
+  height: 100%; }
+
+.main__card__link .bordes_left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px; }
+
+.main__card__desc {
+  display: flex;
+  align-items: center; }
+
+.main__card__desc p {
+  margin-top: 16px; }
+
+.main--juego {
+  padding-bottom: 2.5rem; }
+
+.main--juego .row--marginb {
+  margin-bottom: 1.5rem; }
+
+.main--juego .row--similares {
+  margin: 1rem 0px 0px;
+  justify-content: space-between; }
+
+.main--juego .row--similares .card-body--padding {
+  padding: 0.5rem 0.5rem 0.3rem;
+  text-align: center; }
+
+.main--juego .row--similares .card-body--padding span {
+  font-weight: 500; }
+
+.main--juego em {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0.5rem; }
+
+.main__rowcat {
+  margin: 1.5rem 0% 0%;
+  justify-content: space-around; }
+
+.main__rowcat__card {
+  width: 20rem;
+  margin-bottom: 1.5rem; }
+
+.main__rowcat .card-body--align {
+  text-align: center; }
+
+.main__rowcat .card-body--align em {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-style: normal; }
 
 .footer {
   background-color: #c4ccf9;
   padding: 2% 0px 0px; }
-  .footer__icons {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 1.5rem; }
-    .footer__icons a:hover {
-      transition: all .4s ease-in-out;
-      transform: scale(1.3); }
-    .footer__icons a em {
-      font-size: 2rem;
-      color: black; }
-  .footer__copy {
-    background-color: #7699ff; }
-    .footer__copy a {
-      color: darkslateblue; }
+
+.footer__icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1.5rem; }
+
+.footer__icons a:hover {
+  transition: all .4s ease-in-out;
+  transform: scale(1.3); }
+
+.footer__icons a em {
+  font-size: 2rem;
+  color: black; }
+
+.footer__copy {
+  background-color: #7699ff; }
+
+.footer__copy a {
+  color: darkslateblue; }
 
 body {
   margin: auto; }
@@ -151,3 +184,6 @@ body {
   justify-content: right;
   width: 70%;
   margin-left: 15%; }
+
+.ultimo + div {
+  visibility: hidden; }
