@@ -47,6 +47,13 @@
         padding-bottom: 2.5rem;
         & .row--marginb {
             margin-bottom: 1.5rem;
+            .main__img {
+                width: 100%;
+            }
+            .main__comentario__char {
+                display: flex;
+                justify-content: space-between;
+            }
         } 
 
         & .row--similares {
@@ -88,5 +95,19 @@
                 font-style: normal;
             }
         } 
+    }
+
+    &__campo {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    &__boton {
+        display: flex;
+        justify-content: right;
+        &--width--mleft{
+            width: 70%;
+            margin-left: 15%;
+        }
     }
 }

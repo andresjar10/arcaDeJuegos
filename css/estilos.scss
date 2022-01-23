@@ -29,37 +29,6 @@ body{
     @include estilosBtnEvento();
 }
 
-.main__img {
-    width: 100%;
-}
-
-.main__form__textarea {
-    width: 99%;
-    background-color: rgb(250, 240, 240);
-}
-
-.main__comentario__char {
-    display: flex;
-    justify-content: space-between;
-}
-
-.main__form__btn {
-    display: flex;
-    justify-content: right
-}
-
-.main__campo {
-    width: 70%;
-    margin-left: 15%;
-}
-
-.main__boton {
-    display: flex;
-    justify-content: right;
-    width: 70%;
-    margin-left: 15%;
-}
-
 .ultimo + div {
     visibility: hidden;
 }
