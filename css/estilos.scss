@@ -56,8 +56,17 @@ body{
 .main__boton {
     display: flex;
     justify-content: right;
-    width: 70%;
-    margin-left: 15%;
+    &--width--mleft{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+.main__card__desc__title {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
 }
 
 .ultimo + div {
