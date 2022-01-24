@@ -34,10 +34,16 @@
             }
         }
         &__desc {
-            display: flex;
+            /* display: flex; */
             align-items: center;
             p {
                 margin-top: 16px;
+            }
+            &__title {
+                display: block;
+                text-align: center;
+                margin-bottom: 0.8rem;
+                font-weight: bold;
             }
         }
     }
@@ -106,8 +112,14 @@
         display: flex;
         justify-content: right;
         &--width--mleft{
+            @extend .main__boton;
             width: 70%;
             margin-left: 15%;
+        }
+        &__juego {
+            @extend .main__boton;
+            margin-bottom: 1rem;
+            margin-right: 2rem;
         }
     }
 }
