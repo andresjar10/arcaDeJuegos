@@ -56,9 +56,39 @@
             .main__img {
                 width: 100%;
             }
+            .clasificacion {
+                direction: rtl;
+                unicode-bidi: bidi-override;
+                .star {
+                    font-size: 2rem;
+                    color: grey;  
+                }
+                input[type="radio"] {
+                    display: none;
+                }
+
+                .star:hover,
+                .star:hover ~ .star {
+                    color: orange;
+                }
+                
+                input[type="radio"]:checked ~ .star {
+                    color: orange;
+                }
+            }
             .main__comentario__char {
                 display: flex;
                 justify-content: space-between;
+            }
+            .star_disabled {
+                font-size: 1.7rem;
+                color: grey; 
+                margin-bottom: 0px;
+            }
+            .star_enabled {
+                font-size: 1.7rem;
+                color: orange;
+                margin-bottom: 0px;
             }
         } 
 

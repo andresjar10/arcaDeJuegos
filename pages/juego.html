@@ -95,31 +95,26 @@
         </div>
 
         <div class="row--marginb">
-            <!-- <form class="col-12" action="">
-                <em>Que te parecio?</em>
-                <input type="radio" name="calificacion" value="1">
-                <input type="radio" name="calificacion" value="2">
-                <input type="radio" name="calificacion" value="3">
-                <input type="radio" name="calificacion" value="4">
-                <input type="radio" name="calificacion" value="5">
-                <p>Cuentale a otros Juagores sobre el juego</p>
-                <textarea class="main__form__textarea" name="comentario" id="comentario"
-                    rows="6">El juego me pareci&oacute; ...</textarea>
-                <p class="main__comentario__char"><span>Escribe al menos 30 caracteres</span> <span
-                        class="main_form_spanmaxchart">0/500</span></p>
-                <div class="main__form__btn">
-                    <input type="submit" value='enviar'>
-                </div>
-            </form> -->
-
             <form>
                 <div class="form-group">
                     <em>Que te parecio?</em>
-                    <input type="radio" name="calificacion" value="1">
+                    <!-- <input type="radio" name="calificacion" value="1">
                     <input type="radio" name="calificacion" value="2">
                     <input type="radio" name="calificacion" value="3">
                     <input type="radio" name="calificacion" value="4">
-                    <input type="radio" name="calificacion" value="5">
+                    <input type="radio" name="calificacion" value="5"> -->
+                    <div class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label class="star" for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label class="star" for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label class="star" for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label class="star" for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label class="star" for="radio5">★</label>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="mensaje">Cuentale a otros Juagores sobre el juego</label>
@@ -136,11 +131,20 @@
         <div class="row row--marginb">
             <em class="col-12">Opiniones</em>
             <div class="col-12">
-                <img src="../img/estrellas3.png" alt="" width="100" />
+                <!-- <img src="../img/estrellas3.png" alt="" width="100" /> -->
+                <label class="star_enabled" for="radio1">★</label>
+                <label class="star_enabled" for="radio2">★</label>
+                <label class="star_enabled" for="radio3">★</label>
+                <label class="star_disabled" for="radio4">★</label>
+                <label class="star_disabled" for="radio5">★</label>
                 <p>Me parece un buen juego pero a veces es complicado hacer goles</p>
             </div>
             <div class="col-12">
-                <img src="../img/estrellas4.png" alt="" width="100" />
+                <label class="star_enabled" for="radio1">★</label>
+                <label class="star_enabled" for="radio2">★</label>
+                <label class="star_enabled" for="radio3">★</label>
+                <label class="star_enabled" for="radio4">★</label>
+                <label class="star_disabled" for="radio5">★</label>
                 <p>Excelente juego de futbolin sencillo pero muy divertido y entretenido.</p>
             </div>
         </div>

@@ -144,6 +144,29 @@
   width: 100%;
 }
 
+.main--juego .row--marginb .clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.main--juego .row--marginb .clasificacion .star {
+  font-size: 2rem;
+  color: grey;
+}
+
+.main--juego .row--marginb .clasificacion input[type="radio"] {
+  display: none;
+}
+
+.main--juego .row--marginb .clasificacion .star:hover,
+.main--juego .row--marginb .clasificacion .star:hover ~ .star {
+  color: orange;
+}
+
+.main--juego .row--marginb .clasificacion input[type="radio"]:checked ~ .star {
+  color: orange;
+}
+
 .main--juego .row--marginb .main__comentario__char {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -151,6 +174,18 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.main--juego .row--marginb .star_disabled {
+  font-size: 1.7rem;
+  color: grey;
+  margin-bottom: 0px;
+}
+
+.main--juego .row--marginb .star_enabled {
+  font-size: 1.7rem;
+  color: orange;
+  margin-bottom: 0px;
 }
 
 .main--juego .row--similares {
