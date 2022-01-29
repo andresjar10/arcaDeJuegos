@@ -121,6 +121,13 @@
         &__card {
             width: 20rem;
             margin-bottom: 1.5rem;
+            &__img:hover {
+                overflow:hidden;
+                img {
+                    -webkit-transform:scale(1.3);transform:scale(1.3);
+                    transition:all .8s ease-in-out;
+                }
+            }
         }
 
         .card-body--align {

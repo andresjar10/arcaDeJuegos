@@ -223,6 +223,17 @@
   margin-bottom: 1.5rem;
 }
 
+.main__rowcat__card__img:hover {
+  overflow: hidden;
+}
+
+.main__rowcat__card__img:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+}
+
 .main__rowcat .card-body--align {
   text-align: center;
 }

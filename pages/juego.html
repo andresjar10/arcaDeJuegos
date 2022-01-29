@@ -5,11 +5,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Juego de Deportes - FoosBall Super Shooter | Arca De Juegos</title>
+    <title>Juego de Deportes - Jolly Jumper | Arca De Juegos</title>
 
     <meta name="description"
-        content="Sitio con los mejores y mas sencillos juegos 2D, juega FoosBall Super Shooter genial juego de futbolín online html5 para PC, iPhone y Android">
+        content="Sitio con los mejores y mas sencillos juegos 2D, juega Jolly Jumper genial juego de saltos online html5 para PC, iPhone y Android">
     <meta name="keywords" content="JUEGOS, 2D, DEPORTES, CLASICOS, ROMPECABEZAS, AVENTURA, ACCION, ESPACIALES">
+
+    <script type="text/javascript" src="./../juego/lib/phaser.js"></script>
+    <script type="text/javascript" src="./../juego/lib/phaser-debug.js"></script>
+    <script type="text/javascript" src="./../juego/lib/ScreenShake.js"></script>
+    
+	<script type="text/javascript" src="./../juego/script/Boot.js"></script>
+	<script type="text/javascript" src="./../juego/script/Preload.js"></script>
+	<script type="text/javascript" src="./../juego/script/Menu.js"></script>
+	<script type="text/javascript" src="./../juego/script/Help.js"></script>
+	<script type="text/javascript" src="./../juego/script/Play.js"></script>
+	<script type="text/javascript" src="./../juego/script/Credit.js"></script>
+    <script type="text/javascript" src="./../juego/script/Leaderborad.js"></script>
+    
+    <script type="text/javascript" src="./../juego/script/ui/Buttons.js"></script>
+    <script type="text/javascript" src="./../juego/script/ui/Score.js"></script>
+	<script type="text/javascript" src="./../juego/script/objects/Background.js"></script>
+    <script type="text/javascript" src="./../juego/script/objects/player.js"></script>
+    <script type="text/javascript" src="./../juego/script/objects/platform.js"></script>
+    <script type="text/javascript" src="./../juego/script/objects/fruits.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -88,9 +107,11 @@
     </header>
     <main class="container-fluid main--juego">
         <div class="row row--marginb">
-            <h2 class="col-12 main__titulo--align">FoosBall Super Shooter</h2>
+            <h2 class="col-12 main__titulo--align">Jolly Jumper</h2>
             <div class="col-12">
-                <img class="main__img" src="../img/juego.jpg" alt="" />
+                <div id="gameContainer"></div>
+                <div id="orientation"></div>
+                <script src="./../juego/script/Main.js"></script>
             </div>
         </div>
 
