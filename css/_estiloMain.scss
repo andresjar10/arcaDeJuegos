@@ -6,12 +6,10 @@
         &--align {
             @extend .main__titulo;
             text-align: center;
-            /* margin-bottom: 1.5rem; */
         }
         &--margin {
             @extend .main__titulo;
             margin-left: 15%;
-            /* margin-bottom: 1.5rem; */
         } 
         &--width{
             width: 20rem;
@@ -34,7 +32,6 @@
             }
         }
         &__desc {
-            /* display: flex; */
             align-items: center;
             p {
                 margin-top: 16px;
